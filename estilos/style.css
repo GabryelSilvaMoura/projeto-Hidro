@@ -17,6 +17,12 @@ body{
     width: 98.7vw;
 }
 
+article{
+    background-color: rgba(0, 0, 0, 0.116);
+    padding: 20px;
+    border-radius: 5px;
+}
+
 /* Botão subir */
 div#but{
     display: inline;
@@ -108,13 +114,11 @@ section#hidro > article{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.116);
-    padding: 20px;
-    border-radius: 5px;
+    flex-flow: wrap row;
 }
 
 section#hidro > article p{
-    padding: 15px;
+    padding: 15px 0px;
     font-size: 1.2em;
     line-height: 30px;
     text-indent: 30px;
@@ -122,14 +126,13 @@ section#hidro > article p{
 
 section#hidro img{
     height: 410px;
-    width: 290px;
+    width: 100%;
     object-fit: cover;
 }
 
 
 /* Sessão Vantagens */
 section#vantagens{
-    background-color: lightcoral;
     padding: 20px;
 }
 
