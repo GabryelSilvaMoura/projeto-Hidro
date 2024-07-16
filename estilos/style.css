@@ -17,7 +17,7 @@ body{
     width: 98.7vw;
 }
 
-article{
+section{
     background-color: rgba(0, 0, 0, 0.116);
     padding: 20px;
     border-radius: 5px;
@@ -159,4 +159,41 @@ section#vantagens img{
     height: 400px;
     width: 360px;
     object-fit: cover;
+}
+
+
+/* Sessão Regiões */
+section#regioes{
+    margin: auto;
+}
+
+table{
+    border: 1px solid black;
+    margin: 20px;
+    width: auto;
+    text-align: center;
+}
+
+table > caption{
+    font-size: 1.5em;
+}
+
+table > thead th{
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+table > tbody > tr > td{
+    border: 1px solid black;
+    padding: 20px;
+    width: 180px;
+    background-color: white;
+}
+
+/* Sessão Energias Sustentaveis */
+section#energias img{
+    width: 500px;
+    height: 450px;
 }
