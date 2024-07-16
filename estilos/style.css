@@ -66,4 +66,20 @@ menu > div a{
     color: red;
 }
 
+menu > div a:hover{
+    text-decoration: underline;
+}
+
 /* Sessão banner 1 */
+div#banner1{
+    width: 100vw;
+    height: 60%;
+    background-color: gray;
+    background-image: url('../imagems/jirau.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Sessão Hidro */
