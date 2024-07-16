@@ -13,8 +13,8 @@
 }
 
 body{
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
 }
 
 /* Botão subir */
@@ -43,15 +43,15 @@ div#but > a > button{
 
 /* Cabecalho */
 header{
+    padding: 20px 0px;
     border-bottom: 1px solid black;
 }
 
 header, menu{
     display: flex;
     flex-flow: wrap row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px;
 
     column-gap: 25px;
 }
@@ -72,7 +72,7 @@ menu > div a:hover{
 
 /* Sessão banner 1 */
 div#banner1{
-    width: 100vw;
+    width: 100%;
     height: 60%;
     background-color: gray;
     background-image: url('../imagems/jirau.jpg');
@@ -82,4 +82,37 @@ div#banner1{
     background-attachment: fixed;
 }
 
+
+/* Sessão Principal */
+main{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+
 /* Sessão Hidro */
+section#hidro{
+    margin: auto;
+    background-color: lightgreen;
+}
+
+section#hidro h2{
+    padding: 20px;
+}
+
+section#hidro > article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#hidro > article p{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+section#hidro img{
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+}
