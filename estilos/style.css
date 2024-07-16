@@ -141,9 +141,9 @@ section#vantagens h2{
 
 section#vantagens > article{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-flow: wrap row;
+    flex-flow: nowrap row;
 }
 
 section#vantagens ol{
