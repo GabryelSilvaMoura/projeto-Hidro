@@ -14,14 +14,13 @@
 
 body{
     height: 100vh;
-    height: 100%;
     width: 100vw;
     width: 100%;
 }
 
 section{
-    background-color: rgba(0, 0, 0, 0.116);
     border-radius: 5px;
+    background-color: white;
 }
 
 /* Botão subir */
@@ -75,7 +74,7 @@ menu > div a:hover{
 /* Sessão banner 1 */
 div#banner1{
     width: 100%;
-    height: 450px;
+    height: 400px;
     background-color: gray;
     background-image: url('../imagems/jirau.jpg');
     background-position: center center;
@@ -169,16 +168,19 @@ section#vantagens img{
 /* Sessão Regiões */
 section#regioes{
     margin: auto;
-    background-color: aqua;
     padding: 10px;
     width: 95%;
     text-align: center;
+
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    row-gap: 10px;
 }
 
 table{
     border: 1px solid black;
-    margin: 20px;
-    width: auto;
+    margin: 10px;
 }
 
 table > caption{
@@ -186,16 +188,16 @@ table > caption{
 }
 
 table > thead th{
-    width: 100px;
+    width: 80px;
     border: 1px solid black;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.219);
 }
 
 table > tbody > tr > td{
     border: 1px solid black;
-    padding: 20px;
-    width: 180px;
+    padding: 10px;
+    width: 100px;
     background-color: white;
 }
 
@@ -206,7 +208,7 @@ section#regioes img{
 }
 
 /* Sessão Energias Sustentaveis */
-section#energis{
+section#energias{
     margin: auto;
     padding: 10px;
     width: 95%;
