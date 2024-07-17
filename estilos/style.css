@@ -56,13 +56,10 @@ header.menuH{
     flex-flow: wrap row;
     justify-content: space-around;
     align-items: center;
-
-    height: 78px;
-    overflow: hidden;
 }
 
-header.menuH.expandir{
-    height: 180px;
+menu{
+    display: none;
 }
 
 header.menuH > menu > div a{
@@ -77,11 +74,17 @@ header.menuH > menu > div a:hover{
     background-color: rgba(255, 0, 0, 0.377);
 }
 
-div > i{
+div.butao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
-    background-color: transparent;
-    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+div.butao > i{
     color: black;
     font-size: 2.5em;
     font-weight: 900;

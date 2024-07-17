@@ -11,14 +11,13 @@
 
 <body>
     <header id="cabecalho" class="menuH">
-
         <h1>Hidrelétrica</h1>
         
-        <div>
-            <i class="bi bi-list" id="butC"></i>
+        <div class="butao">
+            <i class="bi bi-list" onclick="clicou()"></i>
         </div>
 
-            <menu>
+            <menu id="items">
                 <div><a href="#hidro">Hidrelétricas</a></div>
                 <div><a href="#vantagens">Vantagens</a></div>
                 <div><a href="#regioes">Regiões</a></div>
@@ -302,5 +301,15 @@
     <footer>
         <h2></h2>
     </footer>
+
+    <script>
+        function clicou(){
+        if (items.style.display == 'block') {
+            items.style.display = 'none'
+        } else{
+            items.style.display = 'block'
+        }
+    }
+    </script>
 </body>
 </html>
