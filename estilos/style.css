@@ -14,6 +14,7 @@
 
 body{
     height: 100vh;
+    height: 100%;
     width: 100vw;
     width: 100%;
 }
@@ -74,7 +75,7 @@ menu > div a:hover{
 /* Sessão banner 1 */
 div#banner1{
     width: 100%;
-    height: 60%;
+    height: 450px;
     background-color: gray;
     background-image: url('../imagems/jirau.jpg');
     background-position: center center;
