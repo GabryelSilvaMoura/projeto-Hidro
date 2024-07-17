@@ -113,7 +113,7 @@ main{
 /* Sessão Hidro */
 section#hidro{
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     width: 95%;
 }
 
@@ -149,7 +149,7 @@ section#hidro img{
 /* Sessão Vantagens */
 section#vantagens{
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     width: 95%;
 }
 
@@ -188,7 +188,7 @@ section#vantagens img{
 /* Sessão Regiões */
 section#regioes{
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     width: 95%;
     text-align: center;
 
@@ -230,7 +230,7 @@ section#regioes img{
 /* Sessão Energias Sustentaveis */
 section#energias{
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     width: 95%;
 }
 
@@ -242,9 +242,10 @@ section#energias h2{
 
 section#energias > article{
     display: flex;
-    flex-flow: wrap row;
+    flex-flow: wrap column;
     justify-content: center;
     align-items: center;
+    row-gap: 30px;
 }
 
 section#energias ol{

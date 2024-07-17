@@ -9,7 +9,7 @@
     <title>Hidrelétrica</title>
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header id="cabecalho" class="menuH">
         <h1>Hidrelétrica</h1>
         
@@ -298,10 +298,6 @@
         <div id="but"><a href="#cabecalho"><button><i class="bi bi-arrow-up"></i></button></a></div>
     </main>
 
-    <footer>
-        <h2></h2>
-    </footer>
-
     <script>
         function clicou(){
         if (items.style.display == 'block') {
@@ -310,6 +306,14 @@
             items.style.display = 'block'
         }
     }
+
+        function mudouTamanho(){
+            if(window.innerWidth >= 760){
+                items.style.display = 'flex'
+            } else{
+                items.style.display = 'none'
+            }
+        }
     </script>
 </body>
 </html>
