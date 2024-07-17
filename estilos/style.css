@@ -14,12 +14,13 @@
 
 body{
     height: 100vh;
-    width: 98.7vw;
+    height: 100%;
+    width: 100vw;
+    width: 100%;
 }
 
 section{
     background-color: rgba(0, 0, 0, 0.116);
-    padding: 20px;
     border-radius: 5px;
 }
 
@@ -53,21 +54,16 @@ header{
     border-bottom: 1px solid black;
 }
 
-header, menu{
+header{
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
     align-items: center;
-
-    column-gap: 35px;
-}
-
-header > h1{
-    font-size: 2.5em;
 }
 
 menu > div a{
-    font-size: 1.3em;
+    font-size: 1.4em;
+    font-weight: 700;
     text-decoration: none;
     color: red;
 }
@@ -91,59 +87,66 @@ div#banner1{
 
 /* Sessão Principal */
 main{
-    margin: auto;
-    padding: 40px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.24);
     background-color: rgba(0, 0, 0, 0.103);
-
-    display: flex;
-    flex-flow: wrap column;
-    row-gap: 20px;
 }
 
 /* Sessão Hidro */
 section#hidro{
     margin: auto;
+    padding: 10px;
+    width: 95%;
 }
 
 section#hidro h2{
-    padding: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7em;
 }
 
 section#hidro > article{
     display: flex;
-    justify-content: space-around;
+    flex-flow: wrap row;
+    justify-content: center;
     align-items: center;
-    flex-flow: wrap row-reverse;
+
+    margin: 20px 0px;
 }
 
 section#hidro > article p{
-    padding: 20px;
-    font-size: 1.2em;
+    padding: 10px;
+    font-size: 1.3em;
     line-height: 30px;
     text-indent: 30px;
+    text-align: justify;
 }
 
 section#hidro img{
-    height: 400px;
-    width: 360px;
+    height: 240px;
+    width: 280px;
     object-fit: cover;
 }
 
 /* Sessão Vantagens */
 section#vantagens{
     margin: auto;
+    padding: 10px;
+    width: 95%;
 }
 
 section#vantagens h2{
-    padding: 20px;    
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7em;  
 }
 
 section#vantagens > article{
     display: flex;
+    flex-flow: wrap row;
     justify-content: center;
     align-items: center;
-    flex-flow: nowrap row;
+    
+    margin: 20px 0px;
 }
 
 section#vantagens ol{
@@ -151,13 +154,14 @@ section#vantagens ol{
 }
 
 section#vantagens ol > li{
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 30px;
+    padding-bottom: 10px;
 }
 
 section#vantagens img{
-    height: 400px;
-    width: 360px;
+    height: 240px;
+    width: 280px;
     object-fit: cover;
 }
 
@@ -165,6 +169,9 @@ section#vantagens img{
 /* Sessão Regiões */
 section#regioes{
     margin: auto;
+    background-color: aqua;
+    padding: 10px;
+    width: 95%;
     text-align: center;
 }
 
@@ -172,7 +179,6 @@ table{
     border: 1px solid black;
     margin: 20px;
     width: auto;
-    text-align: center;
 }
 
 table > caption{
@@ -194,12 +200,43 @@ table > tbody > tr > td{
 }
 
 section#regioes img{
-    width: 500px;
-    height: 450px;
+    height: 240px;
+    width: 280px;
+    object-fit: cover;
 }
 
 /* Sessão Energias Sustentaveis */
+section#energis{
+    margin: auto;
+    padding: 10px;
+    width: 95%;
+}
+
+section#energias h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7em;  
+}
+
+section#energias > article{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+section#energias ol{
+    padding-left: 30px;
+}
+
+section#energias ol > li{
+    font-size: 1.3em;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
 section#energias img{
-    width: 500px;
-    height: 450px;
+    height: 240px;
+    width: 280px;
+    object-fit: cover;
 }
