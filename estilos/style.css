@@ -48,28 +48,45 @@ div#but > a > button{
 }
 
 /* Cabecalho */
-header{
+header.menuH{
     padding: 20px;
     border-bottom: 1px solid black;
-}
-
-header{
+    
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
     align-items: center;
+
+    height: 78px;
+    overflow: hidden;
 }
 
-menu > div a{
+header.menuH.expandir{
+    height: 180px;
+}
+
+header.menuH > menu > div a{
     font-size: 1.4em;
     font-weight: 700;
     text-decoration: none;
     color: red;
 }
 
-menu > div a:hover{
+header.menuH > menu > div a:hover{
     text-decoration: underline;
+    background-color: rgba(255, 0, 0, 0.377);
 }
+
+div > i{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
 
 /* Sessão banner 1 */
 div#banner1{
